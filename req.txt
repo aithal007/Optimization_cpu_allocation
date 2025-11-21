@@ -1,0 +1,6 @@
+pulp
+numpy
+seaborn
+matplotlib
+pandas
+scipy
