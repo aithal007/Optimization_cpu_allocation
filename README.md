@@ -35,7 +35,7 @@ In this phase, we assume that both energy cost and performance benefit scale **l
 To better reflect real-world physics, this phase introduces non-linearities into the objective function.
 
 -   **Objective**:
-    -   **Quadratic Energy Cost ($E \propto x^2$)**: Correctly models the fact that server energy consumption grows exponentially at high loads.
+    -   **Quadratic Energy Cost ($E \propto x^2$)**: Correctly models the fact that server energy increases sharply at high loads(here Quadratically).
     -   **Logarithmic Performance Benefit ($T \propto \log(1+x)$)**: Captures the law of diminishing returns, where each additional unit of CPU provides less benefit than the last.
 -   **Solver**: This non-linear, non-convex problem cannot be solved by the Simplex method. We use **SciPy's `trust-constr` solver**, a powerful algorithm based on two key concepts:
     1.  **The KKT Conditions**: A set of mathematical rules that define the properties of the optimal solution for a constrained non-linear problem.
