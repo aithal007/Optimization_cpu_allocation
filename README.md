@@ -1,4 +1,4 @@
-# Energy-Minimized Server CPU Allocation
+# Energy-Minimized Permormance-Maximized Server CPU Allocation
 
 **Team:** Cloud Calculus (Parikshith, Munjikesh)  
 **Roll Numbers:** BT2024249, BT2024247
